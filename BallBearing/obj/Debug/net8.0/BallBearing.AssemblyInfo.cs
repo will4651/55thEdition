@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BallBearing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ed701ff2388029609d39a37b3d6cb1390b6c3d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d405b5abeea853b0076bfdb4dfe126edcf2873")]
 [assembly: System.Reflection.AssemblyProductAttribute("BallBearing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BallBearing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
