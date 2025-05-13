@@ -5,5 +5,22 @@
         mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
         x:Class="BallBearing.MainWindow"
         Title="BallBearing">
-    Welcome to Avalonia!
+
+	<Grid ColumnDefinitions="*" RowDefinitions="60, *">
+		<Border Grid.Row="0" Background="Red">
+			
+		</Border>
+		<Border Grid.Row="1">
+			<Border.Background>
+				<ImageBrush
+					AlignmentX="Center"
+					AlignmentY="Top"
+					Source="/Assets/testbackground.png"
+					Stretch="UniformToFill"
+					TileMode="None">
+				</ImageBrush>
+			</Border.Background>
+		</Border>
+	</Grid>
+	
 </Window>
