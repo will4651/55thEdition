@@ -1,0 +1,52 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+	  <Grid ColumnDefinitions="*" RowDefinitions="60, *">
+		  <StackPanel Grid.Row="0" Orientation="Horizontal" Background="#292929">
+			  <Label Content="55th Edition"></Label>
+			  <Button Content="Settings"></Button>
+			  <Button Content="Home"></Button>
+			  <Button Content="Rules"></Button>
+			  <Button Content="Campaign"></Button>
+			  <Button Content="Character"></Button>
+			  <Button Content="Action"></Button>
+			  <Button Content="Item"></Button>
+			  <Button Content="Class"></Button>
+			  <Button Content="Encounter"></Button>
+		  </StackPanel>
+	  </Grid>
+  </Design.PreviewWith>
+
+	<!-- Default styles start -->
+		<Style Selector="Window">
+			<Setter Property="FontFamily" Value="Corbel" />
+		</Style>
+	<!-- Default styles end -->
+	
+	<!-- Top bar styles start -->
+		<Style Selector="Button">
+			<Setter Property="VerticalAlignment" Value="Stretch" />
+			<Setter Property="VerticalContentAlignment" Value="Center" />
+			<Setter Property="Foreground" Value="White" />
+			<Setter Property="Background" Value="#292929" />
+			<Setter Property="FontSize" Value="18" />
+			<Setter Property="CornerRadius" Value="0" />
+		</Style>
+		<Style Selector="Button:pointerover /template/ ContentPresenter">
+			<Setter Property="Foreground" Value="White" />
+			<Setter Property="Background" Value="#00183d" />
+		</Style>
+		<Style Selector="Button:pointerdown /template/ ContentPresenter">
+			<Setter Property="Foreground" Value="White" />
+			<Setter Property="Background" Value="#0043ab" />
+		</Style>
+		<Style Selector="Button /template/ ContentPresenter">
+			<Setter Property="Transitions">
+				<Transitions>
+					<BrushTransition Property="Background" Duration="0:0:0.05" />
+				</Transitions>
+			</Setter>
+		</Style>
+	<!-- Top bar styles end -->
+	
+</Styles>

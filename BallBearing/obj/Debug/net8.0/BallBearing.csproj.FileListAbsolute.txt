@@ -66,3 +66,4 @@ C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\ref
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\BallBear.523D0725.Up2Date
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\BallBearing.genruntimeconfig.cache
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\ref\BallBearing.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\CommunityToolkit.Mvvm.dll

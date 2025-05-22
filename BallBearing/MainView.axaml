@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+        x:Class="BallBearing.MainView"
+        Title="BallBearing">
+
+	<Grid ColumnDefinitions="*" RowDefinitions="60, *">
+		<StackPanel Grid.Row="0" Orientation="Horizontal" Background="#292929">
+			<Label VerticalAlignment="Center"
+				   HorizontalContentAlignment="Center"
+				   Foreground="White"
+				   FontSize="20"
+				   FontWeight="UltraBlack"
+				   FontFamily="Verdana"
+				   Margin="10 0 10 3">
+				55e
+			</Label>
+			<Button Content="Settings"></Button>
+			<Button Content="Home"></Button>
+			<Button Content="Rules"></Button>
+			<Button Content="Campaign"></Button>
+			<Button Content="Character"></Button>
+			<Button Content="Action"></Button>
+			<Button Content="Item"></Button>
+			<Button Content="Class"></Button>
+			<Button Content="Encounter"></Button>
+		</StackPanel>
+		<Border Grid.Row="1" Background="{DynamicResource DefaultImageBackground}">
+			
+		</Border>
+	</Grid>
+	
+</Window>

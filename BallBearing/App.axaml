@@ -6,5 +6,16 @@
 
     <Application.Styles>
         <FluentTheme />
+		<StyleInclude Source="/Styles/DefaultStyles.axaml" />
     </Application.Styles>
+
+	<Application.Resources>
+		<ImageBrush x:Key="DefaultImageBackground"
+					AlignmentX="Center"
+					AlignmentY="Top"
+					Source="/Assets/testbackground.png"
+					Stretch="UniformToFill"
+					TileMode="None">
+		</ImageBrush>
+	</Application.Resources>
 </Application>
