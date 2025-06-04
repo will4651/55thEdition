@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace BallBearing
+namespace BallBearing.Views
 {
     public partial class MainView : Window
     {

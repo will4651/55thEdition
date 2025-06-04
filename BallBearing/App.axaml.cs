@@ -1,6 +1,8 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using BallBearing.ViewModels;
+using BallBearing.Views;
 
 namespace BallBearing
 {
@@ -15,7 +17,10 @@ namespace BallBearing
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainView();
+                desktop.MainWindow = new MainView
+                {
+                    DataContext = new MainViewModel()
+                };
             }
 
             base.OnFrameworkInitializationCompleted();

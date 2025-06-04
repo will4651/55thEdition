@@ -7,7 +7,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace BallBearing.ViewModels
 {
-    internal class ViewModelBase : ObservableObject
+    public class ViewModelBase : ObservableObject
     {
 
     }

@@ -1,0 +1,21 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:vm="clr-namespace:BallBearing.ViewModels"
+			 x:DataType="vm:SettingsViewModel"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="BallBearing.Views.SettingsView">
+
+	<Design.DataContext>
+		<vm:SettingsViewModel></vm:SettingsViewModel>
+	</Design.DataContext>
+
+	<Border Background="{DynamicResource DefaultImageBackground}">
+		<StackPanel>
+			<Label Content="{Binding TestString}" />
+			<Label Content="Settings page functional" />
+		</StackPanel>
+	</Border>
+	
+</UserControl>

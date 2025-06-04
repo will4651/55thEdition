@@ -29,8 +29,35 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/MainView.axaml]
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Styles/DefaultStyles.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Styles/DefaultStyles.axaml]
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/ActionView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/CampaignView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/CharacterView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/ClassView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/EncounterView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/HomeView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/ItemView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/MainView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/RulesView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Will/source/repos/will4651/55thEdition/BallBearing/Views/SettingsView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

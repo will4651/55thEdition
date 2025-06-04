@@ -3,7 +3,15 @@
   <Design.PreviewWith>
 	  <Grid ColumnDefinitions="*" RowDefinitions="60, *">
 		  <StackPanel Grid.Row="0" Orientation="Horizontal" Background="#292929">
-			  <Label Content="55th Edition"></Label>
+			  <Label VerticalAlignment="Center"
+				   HorizontalContentAlignment="Center"
+				   Foreground="White"
+				   FontSize="20"
+				   FontWeight="UltraBlack"
+				   FontFamily="Verdana"
+				   Margin="10 0 10 3">
+				  55e
+			  </Label>
 			  <Button Content="Settings"></Button>
 			  <Button Content="Home"></Button>
 			  <Button Content="Rules"></Button>
@@ -20,6 +28,7 @@
 	<!-- Default styles start -->
 		<Style Selector="Window">
 			<Setter Property="FontFamily" Value="Corbel" />
+			<Setter Property="Foreground" Value="Black" />
 		</Style>
 	<!-- Default styles end -->
 	
