@@ -13,15 +13,20 @@ namespace BallBearing
     {
         public Control? Build(object? data)
         {
+            // null check
             if (data is null) return null;
 
+            // get name of viewmodel to store expected view name and type
             var viewName = data.GetType().FullName!.Replace("ViewModel", "View", StringComparison.InvariantCulture);
             var viewType = Type.GetType(viewName);
 
+            // null check
             if (viewType is null) return null;
 
+            // create view
             var control = (Control)Activator.CreateInstance(viewType)!;
 
+            // set DataContext of created view and return it
             control.DataContext = data;
             return control;
         }

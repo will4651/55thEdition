@@ -67,3 +67,17 @@ C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\Bal
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\BallBearing.genruntimeconfig.cache
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\obj\Debug\net8.0\ref\BallBearing.dll
 C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\CommunityToolkit.Mvvm.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\AvaloniaEdit.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Avalonia.Svg.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\ColorTextBlock.Avalonia.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\ExCSS.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Fizzler.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Markdown.Avalonia.Full.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Markdown.Avalonia.Html.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Markdown.Avalonia.Svg.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Markdown.Avalonia.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\ShimSkiaSharp.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Svg.Custom.dll
+C:\Users\Will\source\repos\will4651\55thEdition\BallBearing\bin\Debug\net8.0\Svg.Model.dll

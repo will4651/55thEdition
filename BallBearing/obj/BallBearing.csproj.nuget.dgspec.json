@@ -74,6 +74,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "Markdown.Avalonia": {
+              "target": "Package",
+              "version": "[11.0.2, )"
             }
           },
           "imports": [

@@ -19,6 +19,7 @@ namespace BallBearing
             {
                 desktop.MainWindow = new MainView
                 {
+                    // Set DataContext on MainWindow creation
                     DataContext = new MainViewModel()
                 };
             }

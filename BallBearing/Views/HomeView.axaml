@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 			 xmlns:vm="clr-namespace:BallBearing.ViewModels"
+			 xmlns:md="clr-namespace:Markdown.Avalonia.Full;assembly=Markdown.Avalonia.Full"
 			 x:DataType="vm:HomeViewModel"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BallBearing.Views.HomeView">
@@ -12,9 +13,24 @@
 	</Design.DataContext>
 	
 	<Border Background="{DynamicResource DefaultImageBackground}">
-		<StackPanel>
+		<StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Center">
 			<Label Content="{Binding TestString}" />
 			<Label Content="Home page functional" />
+			<Border Background="Red" Padding="10">
+				<md:MarkdownScrollViewer xml:space="preserve" Height="">
+						# Heading1
+
+						Hello Markdown.Avalonia!
+
+						* listitem1
+						* listitem2
+
+						| col1 | col2 | col3 |
+						|------|------|------|
+						| one  |------|------|
+						| two  |------|------|
+				</md:MarkdownScrollViewer>
+			</Border>
 		</StackPanel>
 	</Border>
 	

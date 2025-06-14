@@ -15,6 +15,7 @@
     </Application.Styles>
 
 	<Application.Resources>
+		<!-- Test background -->
 		<ImageBrush x:Key="DefaultImageBackground"
 					AlignmentX="Center"
 					AlignmentY="Top"

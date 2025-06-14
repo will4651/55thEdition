@@ -13,6 +13,7 @@
 		<vm:MainViewModel />
 	</Design.DataContext>
 	
+	<!-- Top bar start -->
 	<Grid ColumnDefinitions="*" RowDefinitions="60, *">
 		<StackPanel Grid.Row="0" Orientation="Horizontal" Background="#292929">
 			<Label VerticalAlignment="Center"
@@ -34,8 +35,10 @@
 			<Button Content="Class" Command="{Binding GoToClassCommand}"></Button>
 			<Button Content="Encounter" Command="{Binding GoToEncounterCommand}"></Button>
 		</StackPanel>
-		<ContentControl Grid.Row="1" Content="{Binding CurrentPage}">
-		</ContentControl>
+		<!-- Top bar end -->
+
+		<!-- Current page content -->
+		<ContentControl Grid.Row="1" Content="{Binding CurrentPage}" />
 	</Grid>
 	
 </Window>

@@ -14,6 +14,8 @@ namespace BallBearing.ViewModels
         [ObservableProperty]
         private ViewModelBase _currentPage;
 
+        // application wide viewmodels, views are created from them
+        #region ViewModels
         private readonly HomeViewModel _homeView = new ();
         private readonly SettingsViewModel _settingsView = new ();
         private readonly ActionViewModel _actionView = new ();
@@ -23,12 +25,15 @@ namespace BallBearing.ViewModels
         private readonly EncounterViewModel _counterView = new ();
         private readonly ItemViewModel _itemView = new ();
         private readonly RulesViewModel _rulesView = new ();
+        #endregion
 
         public MainViewModel()
         {
+            // default page
             CurrentPage = _homeView;
         }
 
+        #region GoToPage Commands
         [RelayCommand]
         private void GoToHome() => CurrentPage = _homeView;
 
@@ -55,5 +60,6 @@ namespace BallBearing.ViewModels
 
         [RelayCommand]
         private void GoToRules() => CurrentPage = _rulesView;
+        #endregion
     }
 }
